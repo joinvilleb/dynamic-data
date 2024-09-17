@@ -20,10 +20,11 @@ const http = require('http'); // puts the required module into a constant called
 
 // define the port the app will be access from (80,8080,8888 are default to the domain /)
 
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 8080;
 
 // the callback is a function which executes after something else had completed
 
+// createServer() method creates an HTTP server:
 const server = http.createServer((request, response) => {
 
 
@@ -63,11 +64,14 @@ const server = http.createServer((request, response) => {
     else if (request.url === "/about") {
         // execute the statement
     response.writeHead(200, { 'Content-Type': 'text/plain' })
+
+    // response.send("Home page") is rarely used
+
     response.end('About Page')
     }
     else if (request.url === "/gallery") {
         // execute the statement
-    response.writeHead(200, { 'Content-Type': 'text/html' })
+    response.writeHead(200, { 'Content-Type': 'Text/HTML' })
     response.end('<html><head><title>Page Title</title></head><body><h1>My first HTML response</h1></body></html>')
     } else {
         response.writeHead(404, { 'Content-Type': 'text/plain' })
