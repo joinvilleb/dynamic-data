@@ -1,0 +1,502 @@
+/* General Reset and Body Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;
+    color: #444;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Link Styling */
+a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s ease;
+}
+
+footer a {
+    font-weight: bold;
+}
+
+nav a:visited {
+    color: inherit;
+}
+
+.explore-button a:visited {
+    color: inherit; 
+}
+
+.contact-button a:visited {
+    color: inherit;
+}
+
+footer a:visited {
+    color: inherit;
+}
+footer a {
+    font-weight: bold;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: #66BFFF;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #004080;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+header h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+
+header h2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    max-width: 800px;
+    margin: 10px auto;
+    color: #666;
+}
+
+#header h2 {
+    font-size: 15px;
+}
+.portrait {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Navigation Menu */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    font-size: 15px;
+    z-index: 1000;
+    transition: top 0.1s ease-in-out;
+}
+@media screen and (max-width: 768px) {
+    /* Improved smooth scrolling effect */
+    nav {
+        transition: top 0.4s ease-in-out, opacity 0.4s ease-in-out;
+    }
+
+    /* When the user scrolls down */
+    body.scrolled-down nav {
+        top: -100px; /* Hide the navbar */
+        opacity: 0; /* Fade it out */
+    }
+
+    /* When the user scrolls up */
+    body.scrolled-up nav {
+        top: 0; /* Show the navbar */
+        opacity: 1; /* Fade it in */
+    }
+
+}
+
+
+.menu-option {
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.menu-option:hover {
+    background-color: #0056b3;
+}
+
+/* Main Layout - Section Styling */
+main {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 40px); /* Three columns */
+    min-width: 280px;
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+header p {
+
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #555;
+    text-align: center;
+    max-width: 600px;
+}
+
+/* Action Button Styling */
+
+.explore-button {
+
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #003337;
+    background-color: transparent; /* button color */
+    border: 2px solid black; /* button border */
+    text-decoration: none;
+    border-radius: 0px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+.explore-button:hover {
+    background-color: #0056b3; /* button color on hover */
+    transform: scale(1.05); /* button scale on hover */
+}
+
+
+/* contact button styling */
+
+.contact-button {
+
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #003337;
+    background-color: transparent; /* button color */
+    border: 1px solid black; /* button border */
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    
+
+}
+
+.contact-button:hover {
+    background-color: #0056b3; /* button color on hover */
+    transform: scale(1.05); /* button scale on hover */
+}
+
+@media screen and (max-width: 768px) {
+    .explore-button {
+        font-size: 16px;
+        padding: 12px 24px; 
+    }
+
+    section {
+        width: 100%;
+    }
+}
+
+/* Footer Styling */
+footer {
+    background-color: #20232a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    width: 100%;
+    bottom: 0;
+    line-height: 1.6;
+}
+
+footer p {
+
+    line-height: 1.3;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 8px;
+}
+
+/* Responsive Layout */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav {
+        flex-direction: row;
+    }
+
+    .menu-option {
+        margin: 5px 0;
+    }
+
+    main {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    .contact-card {
+        width: 100%;
+    }
+}
+
+/* Contact Cards */
+.contact-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.contact-card {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: calc(33.333% - 40px);
+    min-width: 280px;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.contact-card img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 15px;
+}
+
+.contact-card h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+.contact-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.contact-card a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+}
+
+/* Image Gallery */
+main img {
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+main img:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Sticky Footer */
+footer {
+    position: relative;
+    left: 0;
+    bottom: 100;
+
+    width: 100%;
+    background-color: white;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    max-width: 50%;
+    margin: auto;
+  }
+  
+  /* Slides */
+  .slide {
+    display: none;
+    width: 100%;
+  }
+  
+  /* Slideshow images */
+  .slideshow-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Previous and next buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  }
+  
+  /* Positioning the "next" button */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* Positioning the "prev" button */
+  .prev {
+    left: 0;
+  }
+  
+  /* Hover effect */
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Fade animation */
+  @keyframes fade {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+  }
+  
+  /* Fading effect for slides */
+  .slide {
+    animation-name: fade;
+    animation: fade 1.5s;
+  }
+  
+
+  /* Next & previous buttons */
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    transform: translateY(-50%);
+  }
+  
+  /* Position the "next" button to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* Hover effect */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+
+  #scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0; /* Initially hidden */
+    visibility: hidden; /* Ensures it's completely invisible */
+    transition: opacity 0.5s ease, visibility 0.5s ease; /* Smooth fade */
+    z-index: 1000;
+}
+
+#scroll-to-top:hover {
+
+    background-color: #555;
+
+}
+
+
+
+
+
+/*******************//*******************//*******************//*******************/
+
+

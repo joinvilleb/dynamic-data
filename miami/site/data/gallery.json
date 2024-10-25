@@ -1,0 +1,86 @@
+{
+
+    "images":[
+
+        { "url":"/images/gallery/palm-trees-image.jpg", 
+            "title":"Palm Trees in Los Angeles"
+        
+        },
+
+        { "url":"/images/gallery/los-angeles-downtown-night-gallery.jpg", 
+            "title":"Dowtown Los Angeles at night"
+        
+        },
+
+        { "url":"/images/gallery/experience-art-la.jpeg", 
+            "title":"Attraction in Los Angeles"
+        
+        },
+
+        { "url":"/images/gallery/sights-griffith-la.jpeg", 
+            "title":"Griffith Observatory from the distance"
+        
+        },
+
+        { "url":"/images/gallery/la-skyline.jpg", 
+            "title":"Overhead view of Los Angeles, featuring the lake, and the city"
+        
+        },
+
+        { "url":"/images/gallery/beverly-center.jpg", 
+            "title":"Beverly Center in Beverly Hills, California"
+        
+        },
+
+        { "url":"/images/gallery/hollywood-sign.jpg", 
+            "title":"The Hollywood Sign in Los Angeles"
+        
+        },
+
+        { "url":"/images/gallery/mountain-view-la.jpg", 
+            "title":"Mountain view of Los Angeles"
+        
+        },
+
+        { "url":"/images/gallery/la-zoo.jpeg", 
+            "title":"The Los Angeles Zoo"
+        
+        },
+
+        { "url":"/images/gallery/universal-la.jpg", 
+            "title":"Universal Studios in Los Angeles"
+        
+        },
+
+        { "url":"/images/gallery/los-angeles-beach(1).jpg", 
+            "title":"One of Los Angeles' Beaches"
+        
+        },
+
+        { "url":"/images/gallery/sunset-view-beach.jpg", 
+            "title":"Sunset view of a beach in Los Angeles"
+        
+        },
+
+        { "url":"/images/gallery/los-angeles-beach(2).jpg", 
+            "title":"Arial view of a beach in Los Angeles"
+        
+        },
+
+        { "url":"/images/gallery/lax-airport-entrance.jpg", 
+            "title":"Entrance to LAX Airport, featuring the L, A, and X letters next to the ramp"
+        
+        },
+
+        { "url":"/images/gallery/la-times-bldg.jpeg", 
+            "title":"The corporate office of the Los Angeles Times located in Los Angeles"
+        
+        },
+
+        { "url":"/images/gallery/kia-forum.jpeg", 
+            "title":"Kia Forum, a popular venue in Los Angeles"
+        
+        }
+    ]
+
+}

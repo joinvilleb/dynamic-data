@@ -1,0 +1,78 @@
+{
+
+    "title": "Economy in Los Angeles",
+    "abstract": "Los Angeles is a major economic hub in the United States (US). The city is home to many large corporations, such as Disney, Warner Bros., and Universal Studios. Los Angeles is also known for its diverse economy, with industries such as entertainment, technology, and tourism. Explore some of the different industries that drive the economy in Los Angeles.",
+    "image": "/images/gallery/los-angeles-about.jpg",
+    "industries": [
+        {
+            "title": "Entertainment",
+            "description": "Los Angeles is a major center for enterinment. Many popular series and movies you see today were commenced in Los Angeles. You'll see various actors you've seen on TV in the city. The city is home to Brad Pitt, Angelina Jolie, and many other famous actors. Los Angeles is also known for its vibrant music scene, with many famous musicians calling the city home.",
+            "image": "/images/gallery/la-redcarpet.jpg"
+        },
+        {
+            "title": "Technology",
+            "description": "Los Angeles is a major technology hub in the US. The city is home to many large technology companies, such as Google, Facebook, and Snapchat. Los Angeles is also known for its startup scene, with many new companies being founded every year.",
+            "image": "/images/gallery/technology-la.jpg"
+        },
+        {
+            "title": "Tourism",
+            "description": "Los Angeles is a large tourist destination in the US. The city is home to many famous attractions, such as the Hollywood Walk of Fame, the Griffith Observatory, and the Getty Center. Los Angeles is also known for its beautiful beaches, such as Venice Beach, Santa Monica Beach, and Malibu Beach.",
+            "image": "/images/gallery/tourism-la.jpg"
+        },
+        {
+            "title": "Fashion",
+            "description": "Los Angeles is a major fashion hub in the US. The city is home to many famous fashion designers, such as Michael Kors, and Calvin Klein. Los Angeles is also known for its huge fashion scene, with many fashion shows and events being held every year.",
+            "image": "/images/gallery/fashion-la.jpg"
+        }
+    ],
+
+    "destinations": [
+
+        {
+            "title": "Downtown Los Angeles",
+            "description": "Downtown Los Angeles is the central business district of LA. Downtown Los Angeles is also known for its vibrant nightlife, with many bars, clubs, and restaurants to choose from. This destination is great for those who are looking to experience the inner city life of Los Angeles.",
+            "image": "/images/gallery/los-angeles-downtown-destination.jpg",
+            "imageAlt": "Downtown Los Angeles"
+
+        },
+
+        {
+            "title": "Hollywood",
+            "description": "Hollywood is a major tourist destination in Los Angeles, largely due to the Hollywood Sign, and the Hollywood Walk of Fame. Hollywood is also known for its vibrant nightlife, with many bars, clubs, and restaurants to choose from, like Downtown Los Angeles, this destination is great for those who are looking to experience the beauty of hollwood.",
+            "image": "/images/gallery/hollywood-destination.jpg",
+            "imageAlt": "Hollywood"
+        },
+            
+        {
+            "title": "Beverly Hills",
+            "description": "Beverly Hills is a beautiful yet influencial city in Los Angeles, largely due to the Beverly Hills Hotel, and the Rodeo Drive. There's always something to do in Beverly Hills, whether it's shopping, dining, or exploring the city. I always hear the city of Bevery Hills being mentioned in movies, and TV shows, so I had to check it out for myself. I must say, it's a beautiful city.",
+            "image": "/images/gallery/beverly-hills-destination.jpg",
+            "imageAlt": "Beverly Hills"
+        },
+    
+        {
+                "title": "Santa Monica",
+                "description": "Santa Monica is a major tourist destination in Los Angeles, largely due to the Santa Monica Pier, and the Santa Monica Beach. Santa Monica is also known for its vibrant nightlife, with many bars, clubs, and restaurants to choose from, like Downtown Los Angeles, this destination is great for those who are looking to experience the beauty of Santa Monica.",
+                "image": "/images/gallery/santa-monica.jpg",
+                "imageAlt": "Santa Monica"
+        },
+
+        {
+
+            "title": "The Getty Art Museum",
+            "description": "The Getty Art Museum is a popular art museum in LA, largely due to the beautiful art pieces that are displayed in the museum. The Getty Art Museum is also known for its beautiful architecture, with many visitors coming to see the museum, and take pictures of the beautiful art pieces. This destination is great for those who are looking to experience the beauty of art.",
+            "image": "/images/gallery/getty-art-museum.jpg",
+            "imageAlt": "The Getty Art Museum"
+        }
+
+
+
+
+    ]
+    
+
+
+
+
+
+}

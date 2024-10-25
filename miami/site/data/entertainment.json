@@ -1,0 +1,116 @@
+{
+
+    "title":"Entertainment Industry in Los Angeles, California",
+    "abstract":"This page will explore the entertainment industry in Los Angeles, California. Los Angeles is known as the entertainment capital of the world, and is home to many famous attractions, such as the Hollywood Walk of Fame, the Hollywood Sign, and the TCL Chinese Theatre.",
+    "image":"/images/gallery/los-angeles-about.jpeg",
+
+
+    "topics":
+    [
+        {
+            "title":"Television and Streaming in LA",
+            "description":"Hollywood is the entertainment hub of the world, and Los Angeles is the center of it all. Los Angeles is home to many famous TV studios, such as Warner Bros. Studios, Paramount Pictures, and Universal Studios. If you don't believe that, here are some of the best shows and movies that were filmed in Los Angeles.",
+            "list": [
+                "Friends, which was filmed at Warner Bros. Studios in Burbank, California.",
+                "Big Bang Theory, which was filmed at Warner Bros. Studios in Burbank, California.",
+                "The Office, which was filmed at Chandler Valley Center Studios in Van Nuys, California.",
+                "Breaking Bad, which was filmed at Sunset Bronson Studios in Los Angeles, California."
+            ],
+
+            "image":"images/gallery/friends-stage.jpg"
+        },
+
+        {
+            "title":"Music Industry",
+            "description":"Music is central to our every day lives. Specifically in Los Angeles, it is home to many famous music venues. Some of our favorite artists have performed at the Hollywood Bowl, Greek Theatre, and others. Take a look at some of the famous artists that have performed in Los Angeles.",
+            "list": [
+                "Michael Jackson, who performed at the Forum in 1988.",
+                "Beyoncé, who performed at the Rose Bowl in 2016.",
+                "Kendrik Lamar, who performed at the Staples Center in 2018.",
+                "Madonna, who performed at the Forum in 1985."
+            ],
+
+            "image":"/images/kendrink-lamar.jpg"
+
+            
+        },
+
+        {
+            "title":"Theatre and Performing Arts",
+            "description":"Los Angeles is a central hub for the arts. The city is home to many famous theatres, such as the Pantages Theatre, the Dolby Theatre, and more. I have attended a few shows at the Pantages theatre and it was an experience I will never forget. Here are some of the shows that I have seen at the Pantages Theatre.",
+            "list": [
+                "The Lion King, which I saw in 2019.",
+                "Hamilton, which I saw in 2020.",
+                "Wicked, which I saw in 2018."
+            ],
+
+            "image":"/images/gallery/theatre-in-la.jpg"
+        },
+
+        {
+            "title":"Celebrity Culture and Paparazzi",
+            "description":"Many celebrities call Los Angeles home. From the Kardashians to the Hemsworths, there is no shortage of celebrities in Los Angeles. There are tons of paparazzi, who are always on the lookout for the next big story. Let me share with you some of the best places to spot a celebrity in Los Angeles.",
+            "list": [
+                "The Grove, in Los Angeles is a popular spot for celebrity sightings. It is a shopping center that is frequented by many celebrities.",
+                "Nobu, in Malibu is a popular restaurant where many celebrities unite. It is known for its delicious food and beautiful ocean views.",
+                "Runyon Canyon, in Los Angeles is a popular hiking spot for celebrities. It is a great place to get some exercise and enjoy the beautiful views of the city."
+            ],
+
+            "image":"/images/gallery/dog-walking-tropical-landscape.jpg"
+        }
+    ],
+
+    "packages":[
+        {
+            "title":"Film Behind the Scenes Package",
+            "description":"Ever wondered what goes on behind the scenes of your favorite shows and movies? This package will give you an exclusive look at the making of some of Hollywood's biggest hit shows and mvoies. This package includes a 3-hour guided tour, a group tour with transportation included, short stops at popular filming locations, and bottled water and light snacks provided.",
+            "price":"$299",
+            "image":"images/gallery/film-behind-the-scenes-package.jpg",
+            "duration":"3 hours"
+        },
+
+        {
+            "title":"Shows and Movies Taping Package",
+            "description":"This is similar to the Film Behind the Scenes Package, but this package is tailored for those who want to see a live taping of their favorite TV shows. This package includes a 5-hour guided tour, a group tour with transportation included, short stops at popular filming locations, and lunch at a local restaurant.",
+            "price":"$499",
+            "image":"images/gallery/tv-show-taping-package.jpg",
+            "duration":"5 hours"
+        },
+
+        {
+            "title":"Hollywood Insider Package",
+            "description":"Ooh, this will be a fun one! This package is for those who want to experience the glitz and glamour of Hollywood. This package includes a full-day guided tour, a private tour with transportation included, short stops at popular filming locations, and lunch at a local restaurant.",
+            "price":"$549",
+            "image":"images/gallery/hollywood-insider.jpg",
+            "duration":"Full Day"
+            
+        },
+
+        { 
+            "title":"Celebrity Experience Package",
+            "description":"Get an exclusive look at the life of a celebrity with this package. This package includes a 6-hour guided tour, a group tour with transportation included, short stops at popular filming locations, and bottled water and light snacks provided.",
+            "price":"$599",
+            "image":"images/gallery/celebrity-experience.jpg",
+            "duration":"6 hours"
+
+        },
+
+        {
+            "title":"Discounted item from the Kardashian Kloset", 
+            "description":"Earn a discounted item from the Kardashian Kloset, when you book a tour with us. The Kardashian Kloset is a popular online store that sells pre-owned items from the Kardashian family. The price is a discounted price, and the item is a surprise. You will receive the item at the end of your tour. You just need to tell us your size and what you like, and we will take care of the rest.",
+            "price":"40% off",
+            "image":"images/gallery/kardashian-kloset.jpg"
+        },
+
+        {
+            "title":"VIP Access to a Live Taping of a TV Show",
+            "description": "Get VIP access to a live taping of a TV show, when you book a tour with us. You'll be given a ticket to any live taping of a TV show in Los Angeles. You will be given a VIP pass, and you will be able to meet the cast and crew of the show. You will also be able to take a picture with the cast and crew. This is a once-in-a-lifetime experience that you do not want to miss. You can choose from any of the TV shows that are currently taping in Los Angeles.",
+            "price":"$399",
+            "image":"images/gallery/live-taping-extra.jpg"
+
+        }
+
+    
+    ]
+
+}

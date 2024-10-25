@@ -1,0 +1,31 @@
+{
+
+    "title": "Weather Los Angeles",
+    "abstract": "Los Angeles has a Mediterranean climate, with mild, wet winters and hot, dry summers. The city is known for its sunny weather. The temperature in Los Angeles is usually around 70 degrees Fahrenheit, but it can get much hotter in the summer months. The best time to visit Los Angeles is in the spring or fall, when the weather is mild and the city is less crowded. Explore some of the different seasons that occur in Los Angeles",
+    "image": "/images/gallery/palm-trees-image.jpg",
+    "seasons": [
+        {
+            "title": "Winter",
+            "description": "Winter in Los Angeles is mild and wet. The temperature is usually around the low 60s (fahrenheit), and it is the wettest season of the year. Some of the best events in Los Angeles take place during the winter, such as the Hollywood Christmas Parade and the Rose Parade.",
+            
+            "image": "/images/gallery/winter-in-la.jpg"
+        },
+        {
+            "title": "Spring",
+            "description": "Spring in Los Angeles is warm and sunny. The temperature is usually around the low 70s (fahrenheit), and the city is boasting in activities to take part in. Some of the best events in Los Angeles take place during the spring, such as the Los Angeles Marathon and the Coachella Music Festival.",
+            "image": "/images/gallery/spring-in-la.jpg"
+        },
+        {
+            "title": "Summer",
+            "description": "Summer in Los Angeles is hot and dry. The temperature is usually around the high 80s (fahrenheit), and it is the driest season of the year. Some of the best events in Los Angeles take place during the summer, such as the Fourth of July fireworks and the LA County Fair.",
+            "image": "/images/gallery/summer-in-la.jpg"
+        },
+        {
+            "title": "Fall",
+            "description": "Fall in Los Angeles is also warm and sunny. The temperature is usually around the low 70s (fahrenheit), and the city is boasting in activities to take part in. Some of the best events in Los Angeles take place during the fall, such as Underwood Family Farms, and exploring Griffith Park.",
+            "image": "/images/gallery/fall-in-la.jpg"
+        }
+    ]
+
+}
+

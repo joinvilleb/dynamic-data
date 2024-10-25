@@ -1,0 +1,115 @@
+{
+
+    "title":"Welcome to Los Angeles, California",
+    "abstract":"This is the abstract",
+    "image":"/images/gallery/la-skyline.jpg",
+    "services":
+    [
+        {
+            "title":"Places to Stay",
+            "description":"Los Angeles has many places to stay. From luxury hotels to budget motels, there is something for everyone. Here are some of the best places to stay in Los Angeles.",
+            "list": [
+                "The Beverly Hills Hotel, in Beverly Hills,",
+                "The Charlie Hotel, in West Hollywood",
+                "Shutters on the Beach, in Santa Monica",
+                "Freehand Los Angeles, in Downtown Los Angeles"
+            ],
+
+            "image":"/images/gallery/beverly-hills-hotel.jpg"
+        },
+
+        {
+            "title":"Beaches in Los Angeles",
+            "description":"The beaches in Los Angeles are some of the best in the world. Some of the most popular beach attractions include Venice Beach, and Malibu Beach. It truly is the place to come if you're wanting to catch a few waves and enjoy the breeze. Here are some of the best beaches in Los Angeles.",
+            "list": [
+                "Santa Monica Pier, Santa Monica that features an amusement park, aquarium, and restaurants nearby to satisfy those taste buds.",
+                "Venice Beach, in Venice that includes a skate park, basketball courts, and a bike path.",
+                "Malibu Beach, in Malibu that is known for its celebrity homes and beautiful sunsets. If you want to take a small peak at the homes of the rich and famous, this is the place to be."
+            ],
+
+            "image":"/images/gallery/malibu-beach.jpeg"
+
+            
+        },
+
+        {
+            "title":"Food",
+            "description":"Los Angeles is known for its diverse food scene. As you may know, Los Angeles and California as a whole, is home to the famous In-N-Out Burger chain. Here are some of the best places to eat in Los Angeles.",
+            "list": [
+                "Leo's Taco Truck, in Los Angeles is a popular spot for tacos and burritos. It is a must-visit for those who love Mexican food, offering al-pastor tacos, a fan-favorite.",
+                "Apple Pan, in Los Angeles is a classic diner that has been around since 1947. It is known for its hickory burgers and apple pie.",
+                "Sushi Gen, in Los Angeles is a popular spot for sushi. It is known for its fresh fish and traditional Japanese dishes. If you're a sushi lover, this is the place to be."
+            ],
+
+            "image":"/images/gallery/in-n-out.jpg"
+        },
+
+        {
+            "title":"Activities",
+            "description":"Los Angeles has a lot to offer in terms of activities. From hiking in the hills to shopping on Rodeo Drive, there is something for everyone. Los Angeles also offers activities if you're into outdoor adventures, cultural experience, or entertainment. Here are some of the best activities to do in Los Angeles.",
+            "list": [
+                "Biking along the Venice Beach Boardwalk, in Venice is a popular activity for locals and tourists alike. The boardwalk includes beautiful sights, such as Muscle beach, with a variety of street performers.",
+                "Explore the Broad Museum, in Los Angeles which a great place to learn about the history of skateboarding. The best part about the Broad Museum, is that admission is free for all guests. One of the unquie art to explore is Yayoi Kusama's Infinity Mirror Rooms.",
+                "Rodeo Drive, in Beverly Hills is a popular spot for shopping. It is popular for its high-end stores and luxury boutiques. If you're looking to do some shopping, this is the place to be. You may even spot a celebrity or two."
+            ],
+
+            "image":"/images/gallery/shopping-in-la.jpeg"
+        }
+    ],
+
+    "packages":[
+        {
+            "title":"City Tour Package",
+            "description":"This is the basic city tour package, which includes a guided tour of the city's most popular attractions. This package is perfect for first-time visitors who want to see the highlights of Los Angeles. It includes a 3-hour guided tour, a group tour with transportation included, short stops at popular attractions, and bottled water and light snacks provided.",
+            "price":"$49",
+            "image":"/images/gallery/city-tour-package.jpg",
+            "duration":"3 hours"
+        },
+
+        {
+            "title":"Premium City Tour Package",
+            "description":"This is the premium city tour package, that is designed for those who want a more personalized experience. This package includes a private tour of the city's most popular attractions. It includes a 5-hour guided tour, a private tour with transportation included, short stops at popular attractions, and lunch at a local restaurant.",
+            "price":"$149",
+            "image":"/images/gallery/premium-city-tour.jpeg",
+            "duration":"5 hours"
+        },
+
+        {
+            "title":"VIP City Tour Package",
+            "description":"This is the VIP city tour package, that is tailoired for luxury or private groups. This package includes a private tour of the city's most popular attractions. It features a full-day private tour which the ability to change your tour schedule, exclusive access to off-the-beaten-path spots, luxury transportation, a fine-dining experience or picnic option at  scenic location.",
+            "price":"$449",
+            "image":"/images/gallery/vip-city-tour.jpeg",
+            "duration":"1 day"
+            
+        },
+
+        { 
+            "title":"Family City Tour Package",
+            "description":"This is the family city tour package, that is designed for families with children. This package includes a guided tour of the city's most popular attractions. It includes a 6-hour guided tour, a group tour with transportation included, short stops at popular attractions, and bottled water and light snacks provided. If you do not have children, you can select from the other packages.",
+            "price":"$99",
+            "image":"/images/gallery/family-city-tour.jpg",
+            "duration":"6 hours"
+
+        },
+
+        {
+            "title":"Historical City Tour Package",
+            "description":"This is the Historical City Tour Package. This package is perfect for those who want to learn more about the history of Los Angeles, specifcially. It includes a 3-hour guided tour, a group tour with transportation included, short stops at historical attractions, and bottled water and light snacks provided. This package is perfect for those who want to learn more about the history of Los Angeles, and how Los Angeles became the city it is today. This is a specialized tour, so if you would like a comphrensive tour, please select from the other packages.",
+            "price":"$59",
+            "image":"images/gallery/historical-city-tour.jpg",
+            "duration":"3 hours"
+        },
+
+        {
+            "title":"Cultural City Tour Package",
+            "description": "This is the Cultural City Tour Package. This package is perfect for those who want to learn more about the culture of Los Angeles. It includes a 3-hour guided tour, a group tour with transportation included, short stops at cultural attractions, and bottled water and light snacks provided. This package is perfect for those who want to learn more about the culture of Los Angeles, and how it influences some of the traditions in Los Angeles. This is a specialized tour, so if you would like a comphrensive tour, please select from the other packages.",
+            "price":"$59",
+            "image":"images/gallery/cultural-city-tour.jpg",
+            "duration":"3 hours"
+
+        }
+
+    
+    ]
+
+}
