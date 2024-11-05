@@ -31,7 +31,7 @@ app.get('/', (request, response) => {
 
    console.log(gallery)
 
-   const data = require("./data/home-data.json")
+   const data = require("./data/home-data.json") // import data from a JSON file
    response.render('landing', {
    gallery,
    data
@@ -39,11 +39,23 @@ app.get('/', (request, response) => {
    })
 })
 
+app.get('/about', (request, response) => {
+    
+        const data = require("./data/about.json")
+        response.render('landing',
+            {data,
+            gallery,
+            }
+            )
+    }
+)
+
 app.get('/economy', (request, response) => {
 
-   response.render('page',
-    {title: "Economy in Los Angeles",
-    abstract: "All you need to know about Los Angeles. From the Hollywood sign to the Santa Monica Pier, there is something for everyone.",
+    const data = require("./data/economy.json")
+
+   response.render('landing',
+    {data, gallery,
     }
    )
 
@@ -51,9 +63,10 @@ app.get('/economy', (request, response) => {
 
 app.get('/entertainment', (request, response) => {
 
-    response.render('page',
-     {title: "Entertainment in Los Angeles",
-     abstract: "Here, you can find the best entertainment in Los Angeles. From the Hollywood sign to the Santa Monica Pier, there is something for everyone.",
+    const data = require("./data/entertainment.json")
+
+    response.render('landing',
+     {data, gallery,
      }
     )
  
@@ -62,18 +75,24 @@ app.get('/entertainment', (request, response) => {
 
 app.get('/weather', (request, response) => {
 
-    response.type('text/plain')
-    response.send('Get more information on Los Angeles weather and climate and plan your trip accordingly')
+    const data = require("./data/weather.json")
+
+    response.render('landing',
+        {data, gallery,
+        }
+        )
 
 })
 
 app.get('/gallery', (request, response) => {
-    
-        response.type('text/plain')
-        response.send('This is a collection of images from Los Angeles. Explore some of the gorgeous views of the city.')
-    
-    })
 
+    const data = require("./data/gallery.json")
+    
+    response.render('landing', 
+    {data, gallery,
+    }
+    )
+})
 
 // handle the error FIRST
 // default responses for anything that does not match the routes above (below) NOT FOUND!
@@ -108,15 +127,4 @@ app.get('/error', (req, res) => {
         console.log(`Express is running on http://localhost:${PORT}`)
         console.log('Press Ctrl-C to terminate...')
     })
-
-
-
-
-    //NOTES
-
-    //Section descriptions:
-    // About: 1  short paragraph per page
-    // Services: At least 4 services per page
-    // Packages: Show at least 6 packages per page
-    // Gallery: Show at least 16 images per page
 

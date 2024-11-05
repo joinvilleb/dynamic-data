@@ -1,6 +1,8 @@
 {{!-- This #if is a helper to evaluate if the variable or expression is true --}}
 
-{{#if image}}
+{{#if data.image}} {{!-- if data has an image, display it --}}
+
+
     <img class="hero img-fluid" src="{{data.image}}" alt="">
 
 {{/if}}
