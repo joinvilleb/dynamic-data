@@ -1,0 +1,157 @@
+{
+    "name": "Food",
+    "image": "/images/gallery/food.png",
+    
+    "products": [
+        {
+            "id": 1,
+            "category": 3,
+            "name": "California Snack Pack",
+            "Description": "A selection of locally made snacks, including trail mix, dried fruit, and nuts.",
+            "price": 24.99,
+            "image": "/images/gallery/snack-pack.png",
+            "gallery": [
+
+                "/images/gallery/snack-pack2.png",
+
+                "/images/gallery/snack-pack3.png"
+                
+            ]
+        },
+        {
+            "id": 2,
+            "category": 3,
+            "name": "Los Angeles Coffee Blend",
+            "Description": "A locally roasted coffee blend inspired by the flavors of Los Angeles.",
+            "price": 19.99,
+            "image": "/images/gallery/coffee-blend.png",
+            "gallery": [
+                "/images/gallery/coffee-blend1.png",
+                "/images/gallery/coffee-blend2.png"
+            ]
+        },
+        {
+            "id": 3,
+            "category": 3,
+
+            "name": "Hollywood Popcorn Tin",
+
+            "Description": "A decorative popcorn tin filled with gourmet flavored popcorn.",
+
+            "price": 29.99,
+
+            "image": "/images/gallery/popcorn-tin1.png",
+
+            "gallery": [
+                "/images/gallery/popcorn-tin2.png"
+            ]
+        },
+        {
+            "id": 4,
+            "category": 3,
+            "name": "Malibu Sea Salt Chocolate",
+            "Description": "A bar of artisan dark chocolate sprinkled with Malibu sea salt.",
+            "price": 12.99,
+            "image": "/images/gallery/chocolate.png",
+
+            "gallery": [
+
+                "/images/gallery/chocolate1.png",
+
+                "/images/gallery/chocolate2.png"
+
+            ]
+        },
+        {
+            "id": 5,
+            "category": 3,
+            "name": "Organic Fruit Jam Trio",
+            "Description": "A set of three organic fruit jams made with California-grown fruits.",
+            "price": 34.99,
+            "image": "/images/gallery/jam-trio.png",
+            "gallery": [
+            ]
+        },
+        {
+            "id": 6,
+            "category": 3,
+            "name": "Los Angeles Hot Sauce",
+            "Description": "A fiery hot sauce inspired by the vibrant flavors of Los Angeles.",
+            "price": 14.99,
+            "image": "/images/gallery/hot-sauce.png",
+            "gallery": [
+                "/images/gallery/hot-sauce1.png",
+                "/images/gallery/hot-sauce2.png"
+            ]
+        },
+        {
+            "id": 7,
+            "category": 3,
+            "name": "California Olive Oil",
+            "Description": "Premium extra virgin olive oil made from California-grown olives.",
+            "price": 39.99,
+            "image": "/images/gallery/olive-oil.png",
+            "gallery": [
+                "/images/gallery/olive-oil1.png"
+            ]
+        },
+        {
+            "id": 8,
+            "category": 3,
+            "name": "Santa Monica Cookies",
+            "Description": "A box of assorted cookies by Santa Monica's sweet treats.",
+            "price": 24.99,
+            "image": "/images/gallery/cookies.png",
+            "gallery": [
+                "/images/gallery/cookies1.png",
+                "/images/gallery/cookies2.png"
+            ]
+        },
+        {
+            "id": 9,
+            "category": 3,
+            "name": "Los Angeles Tea Sampler",
+            "Description": "A collection of herbal teas inspired by the serene gardens of Los Angeles.",
+            "price": 19.99,
+            "image": "/images/gallery/tea-sampler.png",
+            "gallery": [
+                "/images/gallery/tea-sampler3.png",
+                "/images/gallery/tea-sampler2.png"
+            ]
+        },
+        {
+            "id": 10,
+            "category": 3,
+            "name": "Venice Beach Energy Bars",
+            "Description": "A pack of 5 energy bars made with natural ingredients and Venice Beach vibes.",
+            "price": 14.99,
+            "image": "/images/gallery/energy-bars.png",
+            "gallery": [
+                "/images/gallery/energy-bars1.png"
+            ]
+        },
+        {
+            "id": 11,
+            "category": 3,
+            "name": "California Honey Jar",
+            "Description": "A jar of organic wildflower honey harvested from California hives.",
+            "price": 19.99,
+            "image": "/images/gallery/honey.png",
+            "gallery": [
+                "/images/gallery/honey2.png"
+            ]
+        },
+        {
+            "id": 12,
+            "category": 3,
+            "name": "Los Angeles Wine Bottle",
+            "Description": "A bottle of premium red wine from Los Angeles vineyards.",
+            "price": 49.99,
+            "image": "/images/gallery/wine.png",
+            "gallery": [
+                "/images/gallery/wine1.png",
+                "/images/gallery/wine2.png"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "customer": {
+      "name": "Billy",
+      "address": "109",
+      "email": "joinviilleb@gmail.com",
+      "phone": "42081"
+    },
+    "cart": []
+  },
+  {
+    "customer": {
+      "name": "Billy Joinville",
+      "address": "414 Elizabeth St",
+      "email": "joinvillebilly@gmail.com",
+      "phone": "4107055032"
+    },
+    "cart": [
+      {
+        "id": "1",
+        "name": "Los Angeles Graphic T-Shirt",
+        "description": "A 100% cotton t-shirt featuring a vibrant Los Angeles cityscape print.",
+        "price": "24.99",
+        "image": "/images/gallery/la-tshirt.jpg"
+      }
+    ]
+  }
+]

@@ -1,0 +1,144 @@
+{
+    "name": "Clothing",
+    "image": "/images/gallery/clothes.png",
+
+    "products": [
+        {
+            "id": 1,
+            "category": 2,
+            "name": "Los Angeles Graphic T-Shirt",
+            "Description": "A 100% cotton t-shirt featuring a vibrant Los Angeles cityscape print.",
+            "price": 24.99,
+            "image": "/images/gallery/t-shirt-3.png",
+            "gallery": [
+                "/images/gallery/t-shirt-1.png",
+                "/images/gallery/t-shirt-2.png"
+            ]
+        },
+        {
+            "id": 2,
+            "category": 2,
+            "name": "Hollywood Stars Hoodie",
+            "Description": "A cozy hoodie inspired by the Hollywood Walk of Fame, featuring embroidered stars.",
+            "price": 49.99,
+            "image": "/images/gallery/hollywood-hoodie1.png",
+            "gallery": [
+                "/images/gallery/hollywood-hoodie2.png",
+                "/images/gallery/hollywood-hoodie3.png",
+                "/images/gallery/hollywood-hoodie4.png"
+            ]
+        },
+        {
+            "id": 3,
+            "category": 2,
+            "name": "California Sunset Tank Top",
+            "Description": "A lightweight tank top with a colorful California sunset design.",
+            "price": 19.99,
+            "image": "/images/gallery/t-shirt-6.png",
+            "gallery": [
+            ]
+        },
+        {
+            "id": 4,
+            "category": 2,
+            "name": "Venice Beach Baseball Cap",
+            "Description": "A stylish cap with 'Venice Beach' embroidered on the front, adjustable strap for all sizes.",
+            "price": 15.99,
+            "image": "/images/gallery/baseball-hat.png",
+            "gallery": [
+            ]
+        },
+        {
+            "id": 5,
+            "category": 2,
+            "name": "Los Angeles Zip-Up Jacket",
+            "Description": "A sleek zip-up jacket with 'Los Angeles' printed on the back and the city’s skyline on the chest.",
+            "price": 69.99,
+            "image": "/images/gallery/t-shirt-7.png",
+            "gallery": [
+            ]
+        },
+        {
+            "id": 6,
+            "category": 2,
+            "name": "California Dreamin' Sweatpants",
+            "Description": "Comfortable sweatpants with a custom logo on the leg.",
+            "price": 39.99,
+            "image": "/images/gallery/sweatpants.png",
+            "gallery": [
+                "/images/gallery/sweatpants-1.png",
+                "/images/gallery/sweatpants-2.png"
+            ]
+        },
+        {
+            "id": 7,
+            "category": 2,
+            "name": "Palm Tree Graphic T-Shirt",
+            "Description": "A casual t-shirt with a tropical palm tree print, perfect for beach days.",
+            "price": 22.99,
+            "image": "/images/gallery/graphic-tee.png",
+            "gallery": [
+                "/images/gallery/t-shirt-4.png",
+                "/images/gallery/t-shirt-5.png"
+            ]
+        },
+        {
+            "id": 8,
+            "category": 2,
+            "name": "Malibu Surf Club Hoodie",
+            "Description": "A relaxed fit hoodie with 'Malibu Surf Club' printed on the front.",
+            "price": 54.99,
+            "image": "/images/gallery/malibu-hoodie.png",
+            "gallery": [
+                "/images/gallery/malibu-hoodie1.png",
+                "/images/gallery/malibu-hoodie2.png"
+            ]
+        },
+        {
+            "id": 9,
+            "category": 2,
+            "name": "Retro Los Angeles Windbreaker",
+            "Description": "A windbreaker jacket with a retro Los Angeles design and vibrant colors.",
+            "price": 59.99,
+            "image": "/images/gallery/windbreaker.png",
+            "gallery": [
+                "/images/gallery/windbreaker2.png"
+            ]
+        },
+        {
+            "id": 10,
+            "category": 2,
+            "name": "California Bear Long Sleeve Shirt",
+            "Description": "A long-sleeve shirt featuring the iconic California bear and state flag design.",
+            "price": 34.99,
+            "image": "/images/gallery/long-sleeve.png",
+            "gallery": [
+                "/images/gallery/hollywood-hoodie3.png"
+            ]
+        },
+        {
+            "id": 11,
+            "category": 2,
+            "name": "Hollywood Nights Pajama Set",
+            "Description": "A comfortable pajama set with a 'Hollywood Nights' theme, including a top and matching bottoms.",
+            "price": 44.99,
+            "image": "/images/gallery/pajamas.png",
+            "gallery": [
+                "/images/gallery/pajamas1.png",
+                "/images/gallery/pajamas2.png"
+            ]
+        },
+        {
+            "id": 12,
+            "category": 2,
+            "name": "California Tie-Dye Shirt",
+            "Description": "A vibrant tie-dye t-shirt with 'California' printed across the chest.",
+            "price": 25.99,
+            "image": "/images/gallery/graphic-tee.png",
+            "gallery": [
+                "/images/gallery/t-shirt-5.png",
+                "/images/gallery/t-shirt-4.png"
+            ]
+        }
+    ]
+}

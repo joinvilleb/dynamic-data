@@ -1,0 +1,39 @@
+
+<div class="category-header">
+    <h1>{{data.name}}</h1>
+
+    <img src="{{data.image}}" alt="{{data.name}}" class="category-image">
+
+</div>
+
+
+<div class="products-container">
+
+    {{#each data.products}}
+
+    <div class="product-card">
+
+
+        <img src="{{this.image}}" alt="{{this.name}}" class="product-image">
+
+
+        <div class="product-details">
+            <p><strong>ID:</strong> {{this.id}}</p>
+            <h3>{{this.name}}</h3>
+            <p><strong>Price:</strong> ${{this.price}}</p>
+            <a href="/product/{{this.id}}" class="view-details-button">View Details</a>
+        </div>
+
+    
+        <div class="product-gallery">
+            <p><strong>Gallery:</strong></p>
+            {{#each this.gallery}}
+            <img src="{{this}}" alt="Gallery Image" class="gallery-image">
+            {{/each}}
+        </div>
+
+
+        {{> addcart}}
+    </div>
+    {{/each}}
+</div>

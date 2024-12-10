@@ -1,14 +1,5 @@
 {{>heading}}
 
-{{!-- Add the services partial  --}}
-
-
-{{#if data.services}}
-
-{{>services}}
-
-{{/if}}
-
 {{!-- Add the packages partial  --}}
 
 {{#if data.packages}}
@@ -17,8 +8,33 @@
 
 {{/if}}
 
+{{!-- Add the services partial  --}}
+
+{{#if data.services}}
+
+<h1 class="h1-featured">{{data.packages_intro2.title}}</h1>
+
+
+{{>services}}
+
+
+
+{{/if}}
+
+
+{{!-- Add the gallery partial  --}}
+
 {{#if data.gallery}}
 
 {{>gallery}}
+
+{{/if}}
+
+
+{{!-- Add the products partial --}}
+
+{{#if data.addcart}}
+
+{{>addcart}}
 
 {{/if}}

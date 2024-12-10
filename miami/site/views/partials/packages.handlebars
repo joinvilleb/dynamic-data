@@ -1,3 +1,14 @@
+    <div class="packages-intro text-center mb-4">
+        <h2>{{data.packages_intro.title}}</h2>
+        <p>{{data.packages_intro.description}}</p>
+    </div>
+
+<div class="gallery-intro text-center mb-4">
+    <h2>{{data.gallery_intro.title}}</h2>
+    <p>{{data.gallery_intro.description}}</p>
+</div>
+
+    
     <div class="row owl-theme owl-carousel owl-packages">
         {{#each data.packages}}
 
@@ -6,15 +17,38 @@
             <div class="card-body">
                 <h5 class="card-title">{{this.title}}</h5>
                 <p class="card-text">{{this.description}}</p>     
-        </div>
+            </div>
 
         <ul class="list-group list-group-flush">
             <li class="list-group-item">{{this.price}}</li>
-            <li class="list-group-item">{{this.duration}}</li>
+            <li class="list-group-item">{{this.sizes}}</li>
             </ul>
 
-      </div>
+        <div class="card-body">
+            <button class="btn btn-primary learn-more"><a href="/souveniers">Learn More</a></button>
+        </div>
+
+
+
+
+
+        </div>
+
+
 
         {{/each}}
+
+        <h2>Categories</h2>
+        <ul>
+            {{#each data.packages_intro2.title}}
+                <li><a href="{{this.link}}">{{this.name}}</a></li>
+            {{/each}}
+
+            {{#each data.packages_intro2.description}}
+                <li><a href="{{this.link}}">{{this.name}}</a></li>
+            {{/each}}
+        </ul>
+
+
 
     </div>

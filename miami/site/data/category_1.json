@@ -1,0 +1,163 @@
+{
+
+    "name": "Souveniers",
+    "image": "/images/gallery/souveniers.png",
+
+
+    "products":[
+        {
+            "id":1,
+            "category":1,
+            "name":"Shot Glasses Set",
+            "Description":"This set of shot glasses is perfect for any occasion. It is made with 100% glass and is perfect for any occasion. It is a great gift for anyone who loves to party.",
+            "price":29.99,
+            "image":"/images/gallery/shots-1.png",
+            "gallery":[
+                "/images/gallery/shots-2.png",
+                "/images/gallery/shots-3.png"
+            ]
+        },
+        {
+            "id":2,
+            "category":1,
+            "name":"Crafted Los Angeles Mug",
+            "Description":"This mug is perfect for any occasion. It is made with 100% ceramic and is perfect for any occasion. It is a great gift for anyone who loves to drink coffee. It is also custom made, so you can add your own personal touch.",
+            "price":99.99,
+            "image":"/images/gallery/mug-la.png",
+            "gallery":[
+                "/images/gallery/mug-1.png",
+                "/images/gallery/mug-2.png",
+                "/images/gallery/mug-3.png"
+            ]
+        },
+
+        {
+            "id":3,
+            "category":1,
+            "name":"Los Angeles Themed Keychain",
+            "Description":"Keychains are a great way to show off your love for Los Angeles. Explore our collection of keychains that are perfect for any occasion.",
+            "price":29.99,
+            "image":"/images/gallery/keychain.png",
+            "gallery":[
+                "/images/gallery/keychain-1.png",
+                "/images/gallery/keychain-4.png"
+            ]
+        },
+        {
+            "id":4,
+            "category":1,
+            "name":"10 Postcards",
+            "Description":"Our postcards are staples, particularly during the holiday season. We offer a variety of postcards that are tailored to both locals and tourists. I hope you enjoy your visit to Little Luxuries, and that you find something special to take home with you.",
+            "price":39.99,
+            "image":"/images/gallery/postcards.png",
+            "gallery":[
+                "/images/gallery/postcard-2.png",
+                "/images/gallery/postcard-3.png"
+            ]
+        },
+
+        {
+            "id":5,
+            "category":1,
+            "name":"Los Angeles Themed Tote Bag",
+            "Description":"Tote bags add character to your outfit. They are also great for carrying your essentials. Our tote bags are made with 100% cotton and are perfect for any occasion.",
+            "price":49.99,
+            "image":"/images/gallery/tote-1.png",
+            "gallery":[
+                "/images/gallery/tote-2.png"
+            ]
+        },
+        {
+            "id":6,
+            "category":1,
+            "name":"Hollywood Star Replica",
+            "Description":"A miniature replica of a Hollywood Walk of Fame star with customizable names. ",
+            "price":29.99,
+            "image":"/images/gallery/hollywood-1.png",
+            "gallery":[
+                "/images/gallery/tote-3.png"
+            ]
+        },
+
+        {
+            "id":7,
+            "category":1,
+            "name":"Beach Tote Bag",
+            "Description":"A durable cotton tote bag, with a Malibu Beach-inspired designs. ",
+            "price":69.99,
+            "image":"/images/gallery/tote-1.png",
+            "gallery":[
+                "/images/gallery/tote-3.png"
+            ]
+        },
+
+        {
+            "id":8,
+            "category":1,
+            "name":"LA Skyline Snow Globe",
+            "Description":"This snow globe captures the beauty of Los Angeles's skyline. It is a great gift for anyone who loves to travel.",
+            "price":19.99,
+            "image":"/images/gallery/globe-2.png",
+            "gallery":[
+                "/images/gallery/globe-1.png",
+                "/images/gallery/globe-3.png"
+            ]
+        },
+
+        {
+            "id":9,
+            "category":1,
+            "name":"Palm Tree Ornament",
+            "Description":"A handcrafted palm tree ornament that is perfect for any occasion. It is a great gift for anyone who loves to travel.",
+            "price":7.99,
+            "image":"/images/gallery/ornaments-1.png",
+            "gallery":[
+                "/images/gallery/ornaments-2.png",
+                "/images/gallery/ornament-3.png"
+            ]
+        },
+
+        {
+            "id":10,
+            "category":1,
+            "name":"Retro Postcard Set",
+            "Description":"A set of 10 retro-style postcards with iconic Los Angeles locations.",
+            "price":39.99,
+            "image":"/images/gallery/postcard-3.png",
+            "gallery":[
+                "/images/gallery/postcard-1.png",
+                "/images/gallery/postcard-2.png"
+            ]
+        },
+
+        {
+            "id":11,
+            "category":1,
+            "name":"Los Angeles Themed Pen",
+            "Description":"Our pens are perfect for any occasion. They are made with 100% plastic and are perfect for any occasion. They are a great gift for anyone who loves to shop.",
+            "price":29.99,
+            "image":"/images/gallery/pens-1.png",
+            "gallery":[
+                "/images/gallery/pens-2.png",
+                "/images/gallery/pens-3.png",
+                "/images/gallery/pens-4.png"
+
+            ]
+        },
+
+        {
+            "id":12,
+            "category":1,
+            "name":"Los Angeles Themed Pencil",
+            "Description":"Style up when you write with our Los Angeles-themed pencils. They are made with 100% wood and are perfect for any occasion. They are a great gift for anyone who loves to write.",
+            "price":24.99,
+            "image":"/images/gallery/pens-1.png",
+            "gallery":[
+    
+                "/images/gallery/pens-5.png",
+                "/images/gallery/pens-6.png"
+            ]
+        }
+
+    ]
+}

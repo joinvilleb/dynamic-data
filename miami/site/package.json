@@ -1,16 +1,16 @@
 {
   "name": "miami-travel",
   "version": "1.0.0",
-  "description": "a travel site about miami",
+  "description": "a gift shop in Los Angeles",
   "main": "miami.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "travel",
-    "fun",
-    "los angeles",
-    "beaches"
+    "gift",
+    "shop",
+    "beach",
+    "Los Angeles"
   ],
   "author": "Billy Joinville",
   "license": "MIT",

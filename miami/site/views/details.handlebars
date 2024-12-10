@@ -1,0 +1,58 @@
+<div class="product-details-container">
+
+    <div class="product-main">
+
+
+        <div class="product-image">
+
+            <img src="{{product.image}}" alt="{{product.name}}" class="main-product-image">
+        </div>
+        <div class="product-info">
+            <h1>{{product.name}}</h1>
+
+            <p><strong>Price:</strong> ${{product.price}}</p>
+
+            <p>{{product.Description}}</p>
+            {{> addcart}}
+
+        </div>
+    </div>
+
+
+    <div class="product-gallery">
+
+        <h3>Additional Images:</h3>
+
+        <div class="gallery-images">
+            {{#each product.gallery}}
+            <img src="{{this}}" alt="Gallery Image" class="gallery-image">
+            {{/each}}
+
+        </div>
+
+    </div>
+
+    <div class="related-products">
+
+        <h3>You Might Also Like:</h3>
+
+        <div class="products-grid">
+            {{#each relatedProducts}}
+
+            <div class="product-card">
+                <a href="/product/{{this.id}}">
+
+                    <img src="{{this.image}}" alt="{{this.name}}" class="related-product-image">
+                    <h4>{{this.name}}</h4>
+                    <p>$ {{this.price}}</p>
+
+
+                </a>
+            </div>
+
+            {{/each}}
+        </div>
+
+    </div>
+    
+</div>
