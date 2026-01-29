@@ -24,5 +24,22 @@
         "image": "/images/gallery/la-tshirt.jpg"
       }
     ]
+  },
+  {
+    "customer": {
+      "name": "Billy Joinville",
+      "address": "414 Elizabeth St",
+      "email": "joinvillebilly@gmail.com",
+      "phone": "4107055032"
+    },
+    "cart": [
+      {
+        "id": "",
+        "name": "",
+        "description": "",
+        "price": "",
+        "image": ""
+      }
+    ]
   }
 ]
